@@ -5,8 +5,8 @@ export function DisponiblePlayStore() {
     return(
         <ContainerGrid className={"bg-black"} >
             <div>
-                <div className="flex items-center justify-between py-28" >
-                    <div>
+                <div className="flex flex-col items-center justify-between py-28 gap-4 text-center @desktop:flex-row @desktop:text-left" >
+                    <div className="flex flex-col w-full items-center @desktop:max-w-[380px] @desktop:items-start" >
                         <span className="bg-grayDark3 px-4 py-2 rounded-md text-white font-inter text-xs" >Edição disponível</span>
                         <div className="py-8" >
                             <h2 className="mb-4 font-mohave font-semibold text-4xl text-white" >Disponível na <br/> playstation store</h2>
@@ -26,7 +26,7 @@ export function DisponiblePlayStore() {
                             className="mt-20"
                         />
                     </div>
-                    <div className="flex flex-col justify-between bg-grayDark2 p-4 h-[564px] w-[385px]" >
+                    <div className="flex flex-col items-center justify-between bg-grayDark2 p-4 h-[564px] w-full @desktop:items-start @desktop:max-w-[385px]" >
                         <ul>
                             <Image
                                 src={"/DefaultBuy.svg"}
@@ -55,7 +55,7 @@ export function DisponiblePlayStore() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-between bg-grayDark2 p-4 h-[564px] w-[385px]" >
+                    <div className="flex flex-col items-center justify-between bg-grayDark2 p-4 h-[564px] w-full @desktop:items-start @desktop:max-w-[385px]" >
                         <ul className="flex flex-col gap-4" >
                             <Image
                                 src={"/LineDisponibleDeluxe.svg"}

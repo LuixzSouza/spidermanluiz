@@ -3,7 +3,7 @@ import { ContainerGrid } from "./container";
 
 export function FooterSection() {
     return(
-        <ContainerGrid className={"bg-bgBack text-white"} >
+        <ContainerGrid className={"bg-bgBack text-white flex flex-col items-center"} >
             <div className="w-full h-4" >
                 <Image
                     src={"/LineFooter.svg"}
@@ -13,10 +13,10 @@ export function FooterSection() {
                     className="w-full"
                 />
             </div>
-            <div className="flex items-center justify-between py-20" >
+            <div className="w-full flex flex-col items-start justify-between py-20 gap-5 @desktop:flex-row @desktop:items-center" >
                 <div className="flex flex-col gap-3">
                     <spa>©codeboost2024</spa>
-                    <p className="w-[668px]" >
+                    <p className="w-full max-w-[668px]" >
                     Este conteúdo destina-se exclusivamente a fins educacionais e não será utilizado para fins comerciais. Todas as imagens e marcas registradas são de propriedade de seus respectivos detentores de direitos autorais. O uso deste material busca promover a educação e o conhecimento.
                     </p>
                 </div>

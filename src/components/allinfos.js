@@ -11,10 +11,10 @@ export function AllInfosSection() {
                 height={16}
                 className="w-full"
             />
-            <div className="flex items-center justify-between py-28" >
-                <div className="w-[419px]" >
+            <div className="flex flex-col items-center justify-between py-28 gap-4 @desktop:flex-row" >
+                <div className="w-full  @desktop:max-w-[419px]" >
                     <h2 className="text-white text-3xl font-mohave font-semibold mb-8" >INFORMAÇÕES GERAIS</h2>
-                    <ul className="flex items-start justify-between text-white text-sm font-robotoflex font-medium mb-14" >
+                    <ul className="flex lex flex-col @desktop:flex-row items-start justify-between text-white text-sm font-robotoflex font-medium mb-14" >
                         <li className="flex flex-col gap-6 w-full" >
                             <p>Plataforma:</p>
                             <p>Lançamento:</p>
@@ -55,7 +55,7 @@ export function AllInfosSection() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[401px] h-[480px] flex flex-col justify-between border-[1.5px] border-white/25 p-8" >
+                <div className="w-full @desktop:max-w-[401px] h-[480px] flex flex-col items-center text-center justify-between border-[1.5px] border-white/25 p-8 @desktop:text-start" >
                     <div className="flex items-center text-white mb-6" >
                         <p className="px-3 py-2 bg-grayDark3 font-robotoflex text-[#C0C0CC]">Disponível para</p>
                         <span className="px-3 py-2 bg-grayDark4 font-robotoflex" >PS5</span>
@@ -75,14 +75,15 @@ export function AllInfosSection() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[281px] h-[462px]" >
+                <div className="relative w-full h-screen @desktop:max-w-[281px] @desktop:h-[462px]">
                     <Image
-                        src={"/ImgSpidermanBlack2.png"}
-                        alt="Homi aranha"
-                        width={381}
-                        height={562}
+                        src="/ImgSpidermanBlack2.png"
+                        alt="Homem-Aranha"
+                        fill
+                        className="object-cover"
                     />
                 </div>
+
             </div>
         </ContainerGrid>
     )

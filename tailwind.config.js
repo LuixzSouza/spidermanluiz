@@ -40,7 +40,11 @@ module.exports = {
         orange3: "#F55827",
         orange4: "#FF7042",
         orange5: "#FF835C",
-      }
+      },
+      screens: {
+        '@desktop': '1024px',
+        '@tablet': '640px',
+      },
     },
   },
   plugins: [],
