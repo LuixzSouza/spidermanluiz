@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Projeto de Front-End: SpiderMan Luiz
 
-## Getting Started
+## ✨ Sobre o Projeto
+Este projeto foi desenvolvido no curso Codeboost, onde foi criada uma landing page dinâmica e envolvente, inspirada no universo do SpiderMan. O foco esteve na reprodução fiel do design fornecido, criando uma experiência visual impactante e interativa com técnicas modernas de desenvolvimento web.
 
-First, run the development server:
+## 🎯 Objetivo
+Explorar a criação de uma interface moderna e interativa com Next.js e Tailwind CSS, garantindo performance otimizada e responsividade. O projeto demonstra como o uso de animações e transições pode melhorar a experiência do usuário.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💻 Tecnologias Utilizadas
+- Next.js: Framework utilizado para garantir eficiência e otimização de desempenho.
+- React.js: Base para criação de componentes dinâmicos e interativos.
+- Tailwind CSS: Framework que facilita a estilização responsiva e moderna.
+- Tailwind Merge: Para a combinação eficiente de classes CSS, otimizando manutenção e evitando redundâncias.
+- Netlify: Utilizado para hospedagem de alto desempenho e deploy rápido.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Desafios e Aprendizados
+Os principais desafios incluíram:
+- Criar animações suaves e interações dinâmicas com Next.js e Tailwind CSS.
+- Garantir que a interface fosse totalmente responsiva para diferentes dispositivos.
+- Utilizar as ferramentas de forma eficiente para proporcionar uma navegação fluida e uma experiência imersiva.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Acesse o Projeto Online
+[🔗 Confira o site: SpiderMan Luiz](https://spidermanluiz.netlify.app) 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### 📌 Autor: Luiz Antônio de Souza
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
